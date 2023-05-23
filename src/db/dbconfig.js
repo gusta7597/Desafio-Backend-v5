@@ -3,10 +3,10 @@ const { Pool } = pg;
 
 const connectToDB = () => {
   const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'postggis',
-    password: 'admin',
+    user: '',
+    host: '',
+    database: '',
+    password: '',
     port: 5432, 
   });
 
